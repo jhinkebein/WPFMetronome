@@ -23,8 +23,6 @@ namespace WPFMetronome.BackEnd
         }
         public List<string[]> selectSong()
         {
-            //TODO selectSong, then finish gui with comobobox and text fields with db stuff and test.
-            //foreach song in db, create string {"{name}", "{bpm}"} or something to that effect and add to list
             List<string[]> songs = new List<string[]>();
             string[] parts;
             using (var db = new SongContext())
